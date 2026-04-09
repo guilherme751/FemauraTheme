@@ -1,0 +1,40 @@
+
+    
+    <style {% if section.settings.section_preload == "false" %} class="gps-link gps-style" type="text/disabled-css" {% endif %}>.gps-583114608097624920.gps.gpsil [style*="--gtc:"]{grid-template-columns:var(--gtc)}.gps-583114608097624920.gps.gpsil [style*="--p:"]{padding:var(--p)}.gps-583114608097624920.gps.gpsil [style*="--w:"]{width:var(--w)}@media only screen and (max-width:1024px){.gps-583114608097624920.gps.gpsil [style*="--w-tablet:"]{width:var(--w-tablet)}}@media only screen and (max-width:767px){.gps-583114608097624920.gps.gpsil [style*="--w-mobile:"]{width:var(--w-mobile)}}.gps-583114608097624920 .gp-relative{position:relative}.gps-583114608097624920 .gp-mx-auto{margin-left:auto;margin-right:auto}.gps-583114608097624920 .gp-mb-0{margin-bottom:0}.gps-583114608097624920 .gp-grid{display:grid}.gps-583114608097624920 .\!gp-hidden{display:none!important}.gps-583114608097624920 .gp-hidden{display:none}.gps-583114608097624920 .gp-max-w-full{max-width:100%}.gps-583114608097624920 .gp-grid-rows-\[1fr\]{grid-template-rows:1fr}.gps-583114608097624920 .gp-transition-colors{transition-duration:.15s;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1)}.gps-583114608097624920 .gp-duration-200{transition-duration:.2s}.gps-583114608097624920 .gp-ease-in-out{transition-timing-function:cubic-bezier(.4,0,.2,1)}@media (max-width:1024px){.gps-583114608097624920 .tablet\:\!gp-hidden{display:none!important}.gps-583114608097624920 .tablet\:gp-hidden{display:none}}@media (max-width:767px){.gps-583114608097624920 .mobile\:\!gp-hidden{display:none!important}.gps-583114608097624920 .mobile\:gp-hidden{display:none}}.gps-583114608097624920 .\[\&_\*\]\:gp-max-w-full *{max-width:100%}</style>
+    
+    
+    
+
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+
+    
+        <section
+          class="gp-mx-auto gp-max-w-full [&_*]:gp-max-w-full {% if section.settings.section_preload == "false" %}gps-lazy {% endif %}"
+          style="--w:100%;--w-tablet:calc(var(--g-ct-w, 100%) + 2 * var(--g-ct-p, 15px));--w-mobile:calc(var(--g-ct-w, 100%) + 2 * var(--g-ct-p, 15px))"
+        >
+          
+    <gp-row gp-data='{"uid":"gH5yAbbHDz"}' data-id="gH5yAbbHDz" id="gH5yAbbHDz" data-same-height-subgrid-container class="gH5yAbbHDz gp-relative gp-mx-auto gp-mb-0 gp-grid gp-max-w-full gp-transition-colors gp-duration-200 gp-ease-in-out [&_*]:gp-max-w-full gp-grid-rows-[1fr]" style="--pageType:GP_STATIC;--gtc:minmax(0, 12fr);--w:100%">
+      
+
+      
+
+      
+    </gp-row>
+  
+        </section>
+      
+  
+    
+    
+{% schema %}
+  {
+    
+    "name": "Section 3",
+    "tag": "section",
+    "class": "gps-583114608097624920 gps gpsil",
+    "settings": [{"type":"paragraph","content":"Section design by GemPages. [Click here to start design](https://admin.shopify.com/store/gktedx-az/apps/gempages-cro/app/shopify/edit?pageType=GP_INDEX&editorId=583114607929852760&sectionId=583114608097624920)"},{"type":"select","label":"Section Preload","id":"section_preload","options":[{"label":"On","value":"true"},{"label":"Off","value":"false"},{"label":"Off Lazy Script","value":"off_lazy_script"}],"default":"false"},{"type":"text","label":"Checksum","id":"checksum"}],
+    "blocks": [{"type": "@app"}],
+    "locales": {}
+  }
+{% endschema %}
+  

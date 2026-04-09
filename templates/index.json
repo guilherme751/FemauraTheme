@@ -1,0 +1,9 @@
+{
+  "sections": {
+    "home_landing": {
+      "type": "home-landing",
+      "settings": {}
+    }
+  },
+  "order": ["home_landing"]
+}

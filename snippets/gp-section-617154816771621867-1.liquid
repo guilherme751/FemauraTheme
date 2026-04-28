@@ -19,13 +19,13 @@
       {%- liquid
         if request.page_type == 'product'
           if 'static' == 'static'
-            if '9118635065484' == 'latest'
+            if '8283730935948' == 'latest'
               paginate collections.all.products by 100000
                 assign product = collections.all.products | sort: 'created_at' | reverse | first
               endpaginate
             else
-              assign product = all_products['testo-boost-12-potes']
-              assign productId = '9118635065484' | times: 1
+              assign product = all_products['femaura-testo-boost-2-potes']
+              assign productId = '8283730935948' | times: 1
               if product == empty or product == null
                 paginate collections.all.products by 100000
                   for item in collections.all.products
@@ -38,13 +38,13 @@
             endif
           endif
         else
-          if '9118635065484' == 'latest'
+          if '8283730935948' == 'latest'
             paginate collections.all.products by 100000
               assign product = collections.all.products | sort: 'created_at'| reverse | first
             endpaginate
           else
-            assign product = all_products['testo-boost-12-potes']
-            assign productId = '9118635065484' | times: 1
+            assign product = all_products['femaura-testo-boost-2-potes']
+            assign productId = '8283730935948' | times: 1
             if product == empty or product == null
               paginate collections.all.products by 100000
                 for item in collections.all.products

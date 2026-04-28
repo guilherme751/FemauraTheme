@@ -93,8 +93,8 @@
     },
     "gp_section_617154816770180075": {
       "settings": {
-        "checksum": "94c81e826051fcc3ebf6b62c71c99cc7ea03462c4ff27e7be7de0bf474e3a7e0_1_1_1_0__1",
-        "gglPK2UG5jt_text": "<span style=\"font-size:20px;\">ESTOQUE LIMITADO!&nbsp;&nbsp;</span><br><span style=\"background-color:transparent;color:#000000;font-size:20px;\"><strong>VOCÊ GANHOU ATÉ&nbsp;</strong></span><br><span style=\"background-color:transparent;color:#E04670;font-size:20px;\"><strong>55% OFF HOJE</strong></span><span style=\"background-color:transparent;color:#000000;font-size:20px;\"><strong>!</strong></span>",
+        "checksum": "b3e51fdaba4e906b98d47c4002fbeb1d531755c194240993c6cefd216214b316_1_1_1_0__1",
+        "gglPK2UG5jt_text": "<span style=\"font-size:20px;\">ESTOQUE LIMITADO!&nbsp;&nbsp;</span><br><span style=\"background-color:transparent;color:#000000;font-size:20px;\"><strong>VOCÊ GANHOU ATÉ&nbsp;</strong></span><br><span style=\"background-color:transparent;color:#E04670;font-size:20px;\"><strong>55% OFF </strong></span><span style=\"background-color:transparent;color:#000000;font-size:20px;\"><strong>HOJE!</strong></span>",
         "section_preload": "true"
       },
       "type": "gp-section-617154816770180075"
@@ -553,7 +553,7 @@
     },
     "gp_section_617154816771621867": {
       "settings": {
-        "checksum": "ac0e294ca84c0912495f39f7c9ea23b17661182fa12d503734212230c3f81dc1_1_1_1_0__1",
+        "checksum": "90c291f3cede16f954a8609ae219865c8bddb1fad93271fa201c09b52f51fd12_1_1_1_0__1",
         "gg-XZ96yNZB_text": "<p><span style=\"font-size:29px;\">6</span><span style=\"font-size:20px;\">X</span><span style=\"font-size:65px;\">40</span><span style=\"font-size:29px;\">,18</span></p>",
         "gg-mKk7JKG0_text": "<p><span style=\"font-size:29px;\">6</span><span style=\"font-size:20px;\">X</span><span style=\"font-size:65px;\">110</span><span style=\"font-size:29px;\">,00</span></p>",
         "gg06FhuygF-_text": "<p><span style=\"color:#000000;\">De <s>R$458,00 </s>por</span></p>",
@@ -566,8 +566,6 @@
         "gg4txIiVsIF_label": "<p>COMPRAR AGORA</p>",
         "gg6a9jn3NEj_srcSet_desktop_src": "https://cdn.shopify.com/s/files/1/2005/9307/files/image_demo.jpg",
         "gg6a9jn3NEj_srcSet_mobile_src": "https://cdn.shopify.com/s/files/1/0727/3925/8508/files/gempages_582392123966358168-5caeebd0-c523-400a-83d1-1bb254b78028.png",
-        "gg72hfTdEWS_text": "<p>Frete GRÁTIS</p>",
-        "gg9THysbCQl_label": "<p>COMPRAR AGORA</p>",
         "ggBIVmReGgf_text": "<p>Entrega RASTREÁVEL</p>",
         "ggDQluA70F9_text": "<p><span style=\"font-size:29px;\">6</span><span style=\"font-size:20px;\">X</span><span style=\"font-size:65px;\">55</span><span style=\"font-size:29px;\">,00</span></p>",
         "ggDbON9lPzf_text": "<p>ou R$ <strong>170,10 </strong>no PIX</p>",
@@ -577,16 +575,11 @@
         "ggFORDnf2Xb_text": "5 unidades do Testo Boost&nbsp;",
         "ggFZrJqy6Ry_text": "Você já tem mil e uma preocupações. Libido não precisa ser uma delas.",
         "ggI-XCmLcjp_text": "🎁 Compre 3, leve 5",
-        "ggKOn4WpOTe_text": "🎁 Compre 6, leve 12",
-        "ggLmZI8COyp_text": "<p><span style=\"font-size:20px;\">12X</span><span style=\"font-size:65px;\">126</span><span style=\"font-size:29px;\">,10</span></p>",
         "ggO5vzyqJ2s_text": "1 unidade do Testo Boost",
-        "ggQ5kmwUK3s_text": "<p>ou R$1020,60 no PIX</p>",
         "ggQ846mAuvY_childItem_0": "<p>30 DIAS DE GARANTIA</p>",
         "ggQ846mAuvY_childItem_1": "<p>VOCÊ ECONOMIZA R$40,00</p>",
         "ggSY7nGoHnG_text": "<p>De <span style=\"color:#000000;\"><s>R$ 229,00</s></span> por</p>",
         "ggSlT5HkwQD_text": "<p><span style=\"color:#F9F9F9;\">MAIS POPULAR: 44% OFF</span></p>",
-        "ggWqhTqX90m_text": "<p>Entrega RASTREÁVEL</p>",
-        "ggYErj90ZMg_text": "<p>De <span style=\"color:#000000;\"><s>R$2748,00 </s></span>por</p>",
         "gg_ya2FU9iY_text": "<p>Entrega RASTREÁVEL</p>",
         "ggcLjcjou9j_text": "2 unidades Testo Boost",
         "ggd5DJ2qTLK_label": "<p>COMPRAR AGORA</p>",
@@ -594,15 +587,10 @@
         "ggeKPTztBhy_childItem_1": "<p>R$127,57 POR UNIDADE</p>",
         "ggeKPTztBhy_childItem_2": "<p>VOCÊ ECONOMIZA R$174,50</p>",
         "ggeeBTvHcM3_text": "OFERTAS LIMITADAS!",
-        "ggj6P4jTR_5_childItem_0": "<p>150 DIAS DE GARANTIA</p>",
-        "ggj6P4jTR_5_childItem_1": "<p>R$85,05 por unidade</p>",
-        "ggj6P4jTR_5_childItem_2": "<p>VOCÊ ECONOMIZA R$1727,40</p>",
         "ggkAHDUmbDE_text": "<p>De <span style=\"color:#000000;\"><s>R$1145,00</s></span><span style=\"color:#E04760;\"><s> </s></span>por</p>",
-        "ggkjL3wBC91_text": "<p><span style=\"color:#F9F9F9;\">TRATAMENTO ANUAL: 63% OFF</span></p>",
         "ggqBrNNDrra_text": "<p>Transação Segura</p>",
         "ggty0pYex1F_text": "🎁 Compre 1 e leve o segundo com 50% OFF",
         "ggvCARRXs3e_text": "<p><span style=\"color:#F9F9F9;\">BÁSICO: 25% OFF</span></p>",
-        "ggvslOV5EeV_text": "12 unidades do Testo Boost&nbsp;",
         "ggxPSB_7R7Z_text": "<p>Frete GRÁTIS</p>"
       },
       "type": "gp-section-617154816771621867"

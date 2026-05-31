@@ -149,7 +149,23 @@
       style="--jc:start"
       class="g0MNrB-_99 gp-relative gp-flex gp-flex-col"
     >
-      <div gp-el-wrapper style="--bs:none;--bw:0px;--bc:transparent;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--pageType:GP_INDEX;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px" class="gm9vsxHVBT ">
+      
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gJM25Az1q2"
+        class="gJM25Az1q2"
+        style="--ta:right;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--pageType:GP_INDEX;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:right">
+        <h2
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:90%;--w-tablet:90%;--w-mobile:90%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--fs:normal;--ff:var(--g-font-Source-Sans-3, 'Source Sans 3'), var(--g-font-heading, heading);--size:48px;--size-tablet:32px;--size-mobile:20px;--lh:120%;--lh-tablet:120%;--lh-mobile:120%;--ls:0.6px;--weight:bold;--c:#4C0909;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggJM25Az1q2_text | replace: '$locationOrigin', locationOrigin }}
+        </h2>
+      </div>
+    </div>
+    <div gp-el-wrapper style="--bs:none;--bw:0px;--bc:transparent;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--pageType:GP_INDEX;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px" class="gm9vsxHVBT ">
       {% unless product %}<p>{{ 'gempages.ProductTitle.product_not_found' | t }}</p>{% else %}
       <gp-product-title
         gp-data='{"setting":{"linkProduct":false},"uid":"gm9vsxHVBT"}'
@@ -175,22 +191,6 @@
       <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://assets.gemcommerce.com/assets-v2/gp-product-title-v7-5.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
     {% endunless %}
       </div>
-    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
-    <div data-id="gJM25Az1q2"
-        class="gJM25Az1q2"
-        style="--ta:right;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--pageType:GP_INDEX;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--dynamic-source-color:#F4F4F4"
-      >
-      <div class="gp-flex" style="--jc:right">
-        <h2
-          data-gp-text
-          class=" gp-text-instant gp-text"
-          style="--w:90%;--w-tablet:90%;--w-mobile:90%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--fs:normal;--ff:var(--g-font-Source-Sans-3, 'Source Sans 3'), var(--g-font-heading, heading);--size:48px;--size-tablet:32px;--size-mobile:20px;--lh:120%;--lh-tablet:120%;--lh-mobile:120%;--ls:0.6px;--weight:bold;--c:#4C0909;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
-        >
-          {{ section.settings.ggJM25Az1q2_text | replace: '$locationOrigin', locationOrigin }}
-        </h2>
-      </div>
-    </div>
-    
     
 
     

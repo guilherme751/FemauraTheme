@@ -149,7 +149,23 @@
       style="--jc:start"
       class="g1wS4WnzaM gp-relative gp-flex gp-flex-col"
     >
-      <div gp-el-wrapper style="--bs:none;--bw:0px;--bc:transparent;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--pageType:GP_INDEX;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--mb:0px;--pt:0px;--pl:0px;--pb:0px;--pr:0px" class="g8fVLn1a0v ">
+      
+    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
+    <div data-id="gP-HFb0Fhz"
+        class="gP-HFb0Fhz"
+        style="--ta:right;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--pageType:GP_INDEX;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--mb:0px;--pt:0px;--pl:0px;--pb:0px;--pr:0px;--pt-mobile:0px;--pl-mobile:0px;--pb-mobile:0px;--pr-mobile:0px;--pt-tablet:0px;--pl-tablet:0px;--pb-tablet:0px;--pr-tablet:0px;--dynamic-source-color:#F4F4F4"
+      >
+      <div class="gp-flex" style="--jc:right">
+        <h2
+          data-gp-text
+          class=" gp-text-instant gp-text"
+          style="--w:90%;--w-tablet:90%;--w-mobile:90%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:center;--fs:normal;--ff:var(--g-font-Source-Sans-3, 'Source Sans 3'), var(--g-font-heading, heading);--size:48px;--size-tablet:32px;--size-mobile:20px;--lh:120%;--lh-tablet:120%;--lh-mobile:120%;--ls:0.6px;--weight:bold;--c:#4C0909;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+        >
+          {{ section.settings.ggP-HFb0Fhz_text | replace: '$locationOrigin', locationOrigin }}
+        </h2>
+      </div>
+    </div>
+    <div gp-el-wrapper style="--bs:none;--bw:0px;--bc:transparent;--shadow:none;--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--pageType:GP_INDEX;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--mb:0px;--pt:0px;--pl:0px;--pb:0px;--pr:0px" class="g8fVLn1a0v ">
       {% unless product %}<p>{{ 'gempages.ProductTitle.product_not_found' | t }}</p>{% else %}
       <gp-product-title
         gp-data='{"setting":{"linkProduct":false},"uid":"g8fVLn1a0v"}'
@@ -175,22 +191,6 @@
       <script {% if section.settings.section_preload == "false" %}class="gps-link" delay {% else %}src{% endif %}="https://assets.gemcommerce.com/assets-v2/gp-product-title-v7-5.js?v={{ shop.metafields.GEMPAGES.ASSETS_VERSION }}" defer="defer"></script>
     {% endunless %}
       </div>
-    {% assign locationOrigin = request.origin | append: routes.root_url | split: '/' | join: '/' %}
-    <div data-id="gP-HFb0Fhz"
-        class="gP-HFb0Fhz"
-        style="--ta:right;--bs:none;--bw:1px 1px 1px 1px;--bc:var(--g-c-line-3, line-3);--d:block;--d-mobile:block;--d-tablet:block;--op:100%;--pageType:GP_INDEX;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--pt:0px;--pl:0px;--pb:0px;--pr:0px;--pt-mobile:0px;--pl-mobile:0px;--pb-mobile:0px;--pr-mobile:0px;--pt-tablet:0px;--pl-tablet:0px;--pb-tablet:0px;--pr-tablet:0px;--dynamic-source-color:#F4F4F4"
-      >
-      <div class="gp-flex" style="--jc:right">
-        <h2
-          data-gp-text
-          class=" gp-text-instant gp-text"
-          style="--w:90%;--w-tablet:90%;--w-mobile:90%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:left;--fs:normal;--ff:var(--g-font-Source-Sans-3, 'Source Sans 3'), var(--g-font-heading, heading);--size:48px;--size-tablet:32px;--size-mobile:20px;--lh:120%;--lh-tablet:120%;--lh-mobile:120%;--ls:0.6px;--weight:bold;--c:#4C0909;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
-        >
-          {{ section.settings.ggP-HFb0Fhz_text | replace: '$locationOrigin', locationOrigin }}
-        </h2>
-      </div>
-    </div>
-    
     
 
     
@@ -790,7 +790,7 @@
         <div
           data-gp-text
           class=" gp-text-instant gp-text"
-          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:center;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Source-Sans-3, 'Source Sans 3'), var(--g-font-body, body);--size:58px;--size-tablet:14px;--size-mobile:14px;--lh:150%;--lh-tablet:180%;--lh-mobile:180%;--ls:1px;--ls-tablet:1px;--ls-mobile:1px;--weight:bold;--c:#E04760;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
+          style="--w:100%;--w-tablet:100%;--w-mobile:100%;--tdt:auto;--b:none;--bc:#121212;--bw:1px 1px 1px 1px;--bblr:0px;--bbrr:0px;--btlr:0px;--btrr:0px;--shadow:none;--ts:none;--ta:center;--line-clamp:unset;--line-clamp-tablet:unset;--line-clamp-mobile:unset;--fs:normal;--ff:var(--g-font-Source-Sans-3, 'Source Sans 3'), var(--g-font-body, body);--size:50px;--size-tablet:14px;--size-mobile:14px;--lh:150%;--lh-tablet:180%;--lh-mobile:180%;--ls:1px;--ls-tablet:1px;--ls-mobile:1px;--weight:bold;--c:#E04760;--tt:none;word-break:break-word;--bgc:transparent;--bgi:url();--bgp:50% 50%;--bgs:cover;--bgr:no-repeat;--bga:scroll;overflow:hidden;--tdl:"
         >
           {{ section.settings.ggCt6LSvBHn_text | replace: '$locationOrigin', locationOrigin }}
         </div>
